@@ -6,3 +6,7 @@ yarn.lock
 __pycache__/
 
 .direnv/
+
+# Nix build outputs
+result
+result-*

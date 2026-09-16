@@ -11,7 +11,6 @@
       defaultPackage.${system} = pkgs.mkShell {
         buildInputs = with pkgs; [
           nodejs_24
-          (yarn.override { nodejs = pkgs.nodejs_24; })
           python3
         ];
       };
